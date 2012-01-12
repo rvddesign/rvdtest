@@ -15,9 +15,13 @@ id sem consectetuer libero luctus adipiscing.
 ***
 
 > first level quote
+
 >    > nested blockquote
-   >    > nested blockquote
-> back to first level
+
+>> nested blockquote
+    >> nested
+
+>> back to first level 
 
 ---
 ***
@@ -218,6 +222,7 @@ https://github.com/Pluxbox/pbPlayer/issues
 - [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
 ---
+#### escaped characters
 
 * \\   backslash
 * \`   backtick
