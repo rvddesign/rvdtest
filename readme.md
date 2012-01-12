@@ -11,13 +11,15 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
 
-
+---
+***
 
 > first level quote
 > > nested blockquote
 > back to first level
 
-
+---
+***
 
 > ### header
 > 
@@ -55,8 +57,16 @@ id sem consectetuer libero luctus adipiscing.
 </table>
 
 #### links
-[Pluxbox][http://www.pluxbox.nl/]
-http://daringfireball.net/projects/markdown/syntax
+1. [Pluxbox][http://www.pluxbox.nl/]
+2. http://daringfireball.net/projects/markdown/syntax
+
+3. This is [an example](http://example.com/ "Title") inline link.
+
+4. [This link](http://example.net/) has no title attribute.
+5. See my [About](/about/) page for details.
+6. This is [an example][id] reference-style link.
+7. This is [an example] [id] reference-style link.
+8. [id]: http://example.com/  "Optional Title Here"
 
 #### copyright
 &copy;
