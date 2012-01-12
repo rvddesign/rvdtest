@@ -236,3 +236,6 @@ https://github.com/Pluxbox/pbPlayer/issues
 * \-   minus sign (hyphen)
 * \.   dot
 * \!   exclamation mark
+
+---
+- [Source](http://daringfireball.net/projects/markdown/syntax/ "Markup guide")
