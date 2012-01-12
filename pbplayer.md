@@ -147,10 +147,10 @@ pbPlayer is rendered to an HTML element. In the following example we created a d
 It's not required to be called 'pbplayer' as long as it matches with the **renderTo** decleration.
 
 ### Stream
-If the file that is played is not a stream, the line stream:true can be left out or set to false.
+If the file that is played is not a stream, the line **stream:true** can be left out or set to *false*.
 
 ### Default options
-There's a few default options which can be set for all pbPlayer instances. We strongly recommend to use this to save redundancy in your coding.
+There's a few default options which can be set for all pbPlayer instances.
 
 ```javascript
 <script type="text/javascript"> 
