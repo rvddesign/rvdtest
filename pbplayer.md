@@ -24,6 +24,8 @@ The pbPlayer has been designed from the core to be a HTML5 native player, which 
 
 ![pbPlayer with Christmas skin](http://pluxbox.nl/pluxbox/images/pbplayer/radio4-kerst.png "pbPlayer Christmas skin")
 
+===
+
 ## Structure
 *File structure*
 
@@ -61,9 +63,6 @@ Include the JavaScript files for the pbPlayer between the head tags of your page
 Styles are included through JavaScript.
 
 ### Positioning
-
-
-
 **Default options**
 There's a few default options which can be set for all pbPlayer instances. We strongly recommend to use this to save redundancy in your coding.
 
@@ -74,18 +73,17 @@ There's a few default options which can be set for all pbPlayer instances. We st
 
     PB.Player.options({ 
 	 
-        skin: 'omroep',        	// Skin name
-        skinPath: 'omroep/',	// Path to skin file
-        path: 'flex/',		// Current path to swf file 
-        volume: 80		// Default volume, min 0 / max 100
+        skin: 'omroep',         // Skin name
+        skinPath: 'omroep/',    // Path to skin file
+        path: 'flex/',          // Current path to swf file 
+        volume: 80              // Default volume, min 0 / max 100
 
     });
 </script>
 ```
-
 pbPlayer can play one or more files. More files can be added through creating an array. When multiple files are added a playlist will appear.
 
-**Single file**
+### Single file
 
 ```javascript
 var player = new PB.Player({
@@ -107,19 +105,18 @@ var player = new PB.Player({
     }
 );
 ```
-**Rendering**
-
+### Rendering
 pbPlayer is rendered to an HTML element. In the following example we created a div with the id "pbplayer".
 
 ```html
-    <div id="pbplayer"></div>
+<div id="pbplayer"></div>
 ```
 It's not required to be called 'pbplayer' as long as it matches with the **renderTo** decleration.
 
-***Stream***
+### Stream
 If the file that is played is not a stream, the line stream:true can be left out or set to false. 
 
-**Playlist variant**
+### Playlist variant
 
 ```javascript
 var player = new PB.Player(
@@ -152,32 +149,31 @@ var player = new PB.Player(
     }
 );
 ```
-
 In case there already is an existing array of files they can be looped out by setting a foreach around the JavaScript.
 
-```javascript
+```javascript php
 new PB.Player([
-		<? foreach( $files as $key => $file ): ?>
-		{
-			url: "<?=$file->file_url?>",
-			title: "<?=$file->file_name?>"
-		}
-		<? if(isset($files[$key+1])): ?>,<?endif?>	
-		<? endforeach ?>
-	],{
-		renderTo:'pbplayer'
-	});
+    <? foreach( $files as $key => $file ): ?>
+        {
+            url: "<?=$file->file_url?>",
+            title: "<?=$file->file_name?>"
+        }
+            <? if(isset($files[$key+1])): ?>
+                .. 
+            <?endif?>	
+     <? endforeach ?>
+    ],{
+        renderTo:'pbplayer'
+});
 ```
 
 ===
 ## Bug tracker
-Found a bug? Let us know and create an issue on GitHub!
-
-https://github.com/Pluxbox/pbPlayer/issues
+Found a bug? Let us know and [create an issue](https://github.com/Pluxbox/pbPlayer/issues "create issue now") on GitHub!
 
 **Author(s)**: Pluxbox
 
-- [Pluxbox](http://pluxbox.com/ "Pluxbox website")
+- [Pluxbox website](http://pluxbox.com/ "Pluxbox website")
 - [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twitter")
 - [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
