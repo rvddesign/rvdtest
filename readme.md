@@ -15,7 +15,8 @@ id sem consectetuer libero luctus adipiscing.
 ***
 
 > first level quote
->> nested blockquote
+>    > nested blockquote
+   >    > nested blockquote
 > back to first level
 
 ---
@@ -54,7 +55,7 @@ id sem consectetuer libero luctus adipiscing.
 
 <table>
     <tr>
-        <td>table data</td>
+        <td>table data</td><td>table data 2</td>
     </tr>
 	<tr>
 		<td>table data</td>
@@ -84,12 +85,16 @@ I get 10 times more traffic from [Google] [1] than from
   [2]: http://search.yahoo.com/  "Yahoo Search"
   [3]: http://search.msn.com/    "MSN Search"
 
+13. <http://example.com/>
+14. <info@pluxbox.nl>
+
 #### copyright
 &copy;
 
 #### lists
 
-Unordered list
+Unordered list:
+
 * item 1
 * item 2
 * item 3
@@ -118,6 +123,10 @@ Ordered list
 	<li>Parish</li>
 </ol>
 
+#### images
+
+![Pluxbox Logo](http://pluxbox.nl/pluxbox/images/logo-pluxbox.png "Pluxbox Logo")
+
 #### Code Blocks
 This is a normal paragraph:
 
@@ -133,6 +142,16 @@ requires 4 spaces or a tab
 
 
 ###### regular code block
+`
+if(isset($test)) {
+    echo $test;
+}
+`
+
+`` 
+`foo`
+``
+
 ```
 if(isset($test)) {
 	echo $test;
@@ -152,11 +171,11 @@ if(isset($test)) {
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-	<title>test</title>
-</head>
+    <head>
+        <title>test</title>
+    </head>
 <body>
-<h1>test</h1>
+    <h1>test</h1>
 </body>
 </html>
 ```
@@ -165,21 +184,21 @@ if(isset($test)) {
 ```javascript
 <script type="text/javascript"> 
 	var player = new PB.Player(
-	    [{
-		title: 'title',
-		url: 'url',
-		codec: 'mp3',
-		stream: true
-	    },
+        [{
+            title: 'title',
+            url: 'url',
+            codec: 'mp3',
+            stream: true
+        },
 </script>
 ```
 
 ###### horizontal lines
 
-* * * 
+* * *
 ***
 ******
-- - - 
+- - -
 --------------------------
 
 ### Bug tracker ###
@@ -195,9 +214,22 @@ https://github.com/Pluxbox/pbPlayer/issues
 - https://www.facebook.com/pages/Pluxbox/168484729879371
 
 - [Pluxbox](http://pluxbox.com/ "Pluxbox website")
-- [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twittere")
+- [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twitter")
 - [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
 *License*
 
+---
 
+\\   backslash
+\`   backtick
+\*   asterisk
+\_   underscore
+\{}  curly braces
+\[]  square brackets
+\()  parentheses
+\#   hash mark
+\+   plus sign
+\-   minus sign (hyphen)
+\.   dot
+\!   exclamation mark
