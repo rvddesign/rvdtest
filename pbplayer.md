@@ -54,7 +54,7 @@ pbplayer3.js
 
 ### JavaScript
 
-Include the JavaScript files for the pbPlayer between the head tags of your page.
+Include the JavaScript files for the pbPlayer in the head  of your page.
 
 - pbjs.js
 - pbplayer3.js
@@ -62,35 +62,16 @@ Include the JavaScript files for the pbPlayer between the head tags of your page
 
 Styles are included through JavaScript.
 
-### Positioning
-**Default options**
-There's a few default options which can be set for all pbPlayer instances. We strongly recommend to use this to save redundancy in your coding.
-
-```javascript
-<script type="text/javascript"> 
-
-    // Default options for all pbplayer instances.
-
-    PB.Player.options({ 
-	 
-        skin: 'omroep',         // Skin name
-        skinPath: 'omroep/',    // Path to skin file
-        path: 'flex/',          // Current path to swf file 
-        volume: 80              // Default volume, min 0 / max 100
-
-    });
-</script>
-```
-pbPlayer can play one or more files. More files can be added through creating an array. When multiple files are added a playlist will appear.
-
 ### Single file
+
+pbPlayer can play one or more files. More files can be added through creating an array. When multiple files are added a playlist will appear.
 
 ```javascript
 var player = new PB.Player({
 
         title: 'Streaming',
         url: 'http://streamingsite/stream.mp3',
-        codec: 'mp3',   // Default mp3
+        codec: 'mp3',    // Default mp3
         stream: true    // Default false
     }
 
@@ -105,16 +86,6 @@ var player = new PB.Player({
     }
 );
 ```
-### Rendering
-pbPlayer is rendered to an HTML element. In the following example we created a div with the id "pbplayer".
-
-```html
-<div id="pbplayer"></div>
-```
-It's not required to be called 'pbplayer' as long as it matches with the **renderTo** decleration.
-
-### Stream
-If the file that is played is not a stream, the line stream:true can be left out or set to false. 
 
 ### Playlist variant
 
@@ -151,7 +122,7 @@ var player = new PB.Player(
 ```
 In case there already is an existing array of files they can be looped out by setting a foreach around the JavaScript.
 
-```javascript php
+```javascript
 new PB.Player([
     <? foreach( $files as $key => $file ): ?>
         {
@@ -165,6 +136,36 @@ new PB.Player([
     ],{
         renderTo:'pbplayer'
 });
+```
+
+### Rendering
+pbPlayer is rendered to an HTML element. In the following example we created a div with the id "pbplayer".
+
+```html
+<div id="pbplayer"></div>
+```
+It's not required to be called 'pbplayer' as long as it matches with the **renderTo** decleration.
+
+### Stream
+If the file that is played is not a stream, the line stream:true can be left out or set to false.
+
+### Default options
+There's a few default options which can be set for all pbPlayer instances. We strongly recommend to use this to save redundancy in your coding.
+
+```javascript
+<script type="text/javascript"> 
+
+    // Default options for all pbplayer instances.
+
+    PB.Player.options({ 
+	 
+        skin: 'omroep',         // Skin name
+        skinPath: 'omroep/',    // Path to skin file
+        path: 'flex/',          // Current path to swf file 
+        volume: 80              // Default volume, min 0 / max 100
+
+    });
+</script>
 ```
 
 ===
