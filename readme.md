@@ -89,7 +89,7 @@ I get 10 times more traffic from [Google] [1] than from
 14. <info@pluxbox.nl>
 
 #### copyright
-&copy;
+&copy; *Pluxbox*
 
 #### lists
 
@@ -207,7 +207,7 @@ Found a bug? Let us know and create an issue on GitHub!
 
 https://github.com/Pluxbox/pbPlayer/issues
 
-*Author(s)*: Pluxbox
+**Author(s)**: Pluxbox
 
 - http://www.pluxbox.com/
 - https://twitter.com/pluxbox
@@ -217,19 +217,17 @@ https://github.com/Pluxbox/pbPlayer/issues
 - [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twitter")
 - [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
-*License*
-
 ---
 
-\\   backslash
-\`   backtick
-\*   asterisk
-\_   underscore
-\{}  curly braces
-\[]  square brackets
-\()  parentheses
-\#   hash mark
-\+   plus sign
-\-   minus sign (hyphen)
-\.   dot
-\!   exclamation mark
+* \\   backslash
+* \`   backtick
+* \*   asterisk
+* \_   underscore
+* \{}  curly braces
+* \[]  square brackets
+* \()  parentheses
+* \#   hash mark
+* \+   plus sign
+* \-   minus sign (hyphen)
+* \.   dot
+* \!   exclamation mark
