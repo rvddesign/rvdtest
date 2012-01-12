@@ -25,8 +25,7 @@ The pbPlayer has been designed from the core to be a HTML5 native player, which 
 ![pbPlayer with Christmas skin](http://pluxbox.nl/pluxbox/images/pbplayer/radio4-kerst.png "pbPlayer Christmas skin")
 
 ## Structure
----
-Inside the respository the following filestrcuture is found:
+*File structure*
 
 ```
 /pbplayer3/
@@ -65,7 +64,7 @@ Styles are included through JavaScript.
 
 
 
-### Default options
+**Default options**
 There's a few default options which can be set for all pbPlayer instances. We strongly recommend to use this to save redundancy in your coding.
 
 ```javascript
@@ -86,7 +85,7 @@ There's a few default options which can be set for all pbPlayer instances. We st
 
 pbPlayer can play one or more files. More files can be added through creating an array. When multiple files are added a playlist will appear.
 
-### Single file
+**Single file**
 
 ```javascript
 var player = new PB.Player({
@@ -108,7 +107,7 @@ var player = new PB.Player({
     }
 );
 ```
-### Rendering
+**Rendering**
 
 pbPlayer is rendered to an HTML element. In the following example we created a div with the id "pbplayer".
 
@@ -117,10 +116,10 @@ pbPlayer is rendered to an HTML element. In the following example we created a d
 ```
 It's not required to be called 'pbplayer' as long as it matches with the **renderTo** decleration.
 
-### Stream
+***Stream***
 If the file that is played is not a stream, the line stream:true can be left out or set to false. 
 
-### Playlist variant
+**Playlist variant**
 
 ```javascript
 var player = new PB.Player(
@@ -176,12 +175,11 @@ Found a bug? Let us know and create an issue on GitHub!
 
 https://github.com/Pluxbox/pbPlayer/issues
 
-*Author(s)*: Pluxbox
+**Author(s)**: Pluxbox
 
-- http://www.pluxbox.com/
-- https://twitter.com/pluxbox
-- https://www.facebook.com/pages/Pluxbox/168484729879371
+- [Pluxbox](http://pluxbox.com/ "Pluxbox website")
+- [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twitter")
+- [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
-*License*
-
+&copy; *Pluxbox*
 
