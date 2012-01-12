@@ -1,16 +1,35 @@
 ### readme.md test file ###
 
 ## Paragraphs
+This is a regular paragraph.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dolor velit, vitae rhoncus nisl. Pellentesque molestie velit eget nunc tempus nec interdum ante commodo. Pellentesque laoreet semper mauris id fermentum. Maecenas vitae libero turpis, sed rutrum velit. Maecenas id augue arcu. Aliquam rhoncus iaculis nulla id pellentesque. Phasellus id libero non est tincidunt tempor sit amet eget neque. Pellentesque eu odio non augue ornare pharetra. Nunc id dui non odio convallis lobortis sit amet nec lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut euismod varius metus et iaculis. In hac habitasse platea dictumst. Nulla facilisi. Vestibulum ac aliquam risus. Pellentesque vel accumsan risus. Nullam sagittis ultricies ullamcorper.
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+ 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+id sem consectetuer libero luctus adipiscing.
 
+> first level quote
+> > nested blockquote
+> back to first level
+
+> ### header
+> 
+> 1. This is the first list item.
+> 2. This is the second list item.
+> 
+> Here's some example code:
+> 
+> return shell_exec("echo $input | $markdown_script");
+
+*Italic text*
+
+regular hr
 ======================================================
+
+dashed hr
 ------------------------------------------------------
 
 ## Heads
@@ -22,18 +41,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dolor vel
 ##### h5 title
 ###### h6 title
 
-# This is an H1 #
-
-## This is an H2 ##
-
-### This is an H3 ######
-
-This is a regular paragraph.
+## table
 
 <table>
     <tr>
         <td>table data</td>
     </tr>
+	<tr>
+		<td>table data</td>
+	</tr>
 </table>
 
 #### links
@@ -44,17 +60,6 @@ http://images.google.com/images?num=30&amp;q=larry+bird
 &copy;
 
 #### special characters
-AT&T
-AT&amp;T
-4 < 5
-4 &lt; 5
->
-
-This is an H1
-=============
-
-This is an H2
--------------
 
 List:
 * \#Num: #1
