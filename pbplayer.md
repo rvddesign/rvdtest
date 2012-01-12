@@ -38,7 +38,7 @@ The pbPlayer has been designed from the core to be a HTML5 native player, which 
     skin.css
     skin.js
 demo.html
-[pbjs](https://github.com/Saartje87/pbjs "pbjs").js
+pbjs.js
 pbplayer3.js
 ```
 ===
@@ -48,7 +48,7 @@ pbplayer3.js
 
 Include the JavaScript files for the pbPlayer in the head  of your page.
 
-- [pbjs](https://github.com/Saartje87/pbjs "pbjs").js
+- [pbjs.js](https://github.com/Saartje87/pbjs "pbjs")
 - pbplayer3.js
 - skin.js
 
@@ -96,7 +96,7 @@ var player = new PB.Player(
 
     }, {
 
-        title: 'Tafelgast: Manuel Kneepkens over zijn boek Fitou',
+        title: 'fragment title',
         url: 'http://radiobox.omroep.nl/fragment/read_sitestat_fragment/33513/33513.mp3',
         codec: 'mp3'
 
@@ -147,7 +147,7 @@ PB.Player.options({
 ## Bug tracker
 Found a bug? Let us know and [create an issue](https://github.com/Pluxbox/pbPlayer/issues "create issue now") on GitHub!
 
-**Author(s)**: [Pluxbox](https://github.com/Pluxbox "Follow Pluxbox on Github")
+**Author**: [Pluxbox](https://github.com/Pluxbox "Follow Pluxbox on Github")
 
 - [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twitter")
 - [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
