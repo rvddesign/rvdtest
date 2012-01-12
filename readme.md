@@ -10,11 +10,15 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
  
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
+
+
 ---
 > first level quote
 > > nested blockquote
 > back to first level
 ---
+
+
 > ### header
 > 
 > 1. This is the first list item.
@@ -24,12 +28,10 @@ id sem consectetuer libero luctus adipiscing.
 > 
 > return shell_exec("echo $input | $markdown_script");
 
+
 *Italic text*
 
-regular hr
 ======================================================
-
-dashed hr
 ------------------------------------------------------
 
 ## Heads
@@ -53,18 +55,43 @@ dashed hr
 </table>
 
 #### links
-http://images.google.com/images?num=30&q=larry+bird
-http://images.google.com/images?num=30&amp;q=larry+bird
+[Pluxbox][http://www.pluxbox.nl/]
+http://daringfireball.net/projects/markdown/syntax
 
 #### copyright
 &copy;
 
-#### special characters
+#### lists
 
-List:
+Unordered list
 * \#Num: #1
 * User/#Num: rvddesign#1
 * User/Project#Num: rvddesign/rvdtest#1
+
++ item 1
++ item 2
++ item 3
+
+- item 1
+- item 2
+- item 3
+
+Ordered list
+
+1. item 1
+2. item 2
+3. item 3
+
+1986. What a great season.
+1986\. What a great season.
+
+
+<ol>
+	<li>Bird</li>
+	<li>McHale</li>
+	<li>Parish</li>
+</ol>
+
 
 ###### regular code block
 ```
@@ -122,5 +149,4 @@ https://github.com/Pluxbox/pbPlayer/issues
 
 *License*
 
-[Pluxbox][http://www.pluxbox.nl/]
 
