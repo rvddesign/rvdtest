@@ -15,7 +15,7 @@ id sem consectetuer libero luctus adipiscing.
 ***
 
 > first level quote
-> > nested blockquote
+>> nested blockquote
 > back to first level
 
 ---
@@ -31,7 +31,12 @@ id sem consectetuer libero luctus adipiscing.
 > return shell_exec("echo $input | $markdown_script");
 
 
-*Italic text*
+* *Italic text*
+* _italic_
+* **bold**
+* __bold__
+
+\* escaped asteriks \*
 
 ======================================================
 ------------------------------------------------------
@@ -67,6 +72,17 @@ id sem consectetuer libero luctus adipiscing.
 6. This is [an example][id] reference-style link.
 7. This is [an example] [id] reference-style link.
 8. [id]: http://example.com/  "Optional Title Here"
+9. [link text][a]
+10. [link text][A]
+11. [Google][]
+12. [Google]: http://google.com/
+
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
 
 #### copyright
 &copy;
@@ -107,11 +123,13 @@ This is a normal paragraph:
 
     This is a code block.
 
-code block start
-	code block tab 1 start
-		code block tab 2
-	code block tab 1 end
-code block end
+requires 4 spaces or a tab
+
+    code block start
+        code block tab 1 start
+            code block tab 2
+        code block tab 1 end
+    code block end
 
 
 ###### regular code block
@@ -175,6 +193,10 @@ https://github.com/Pluxbox/pbPlayer/issues
 - http://www.pluxbox.com/
 - https://twitter.com/pluxbox
 - https://www.facebook.com/pages/Pluxbox/168484729879371
+
+- [Pluxbox](http://pluxbox.com/ "Pluxbox website")
+- [Follow on Twitter](https://twitter.com/pluxbox/ "Follow Pluxbox on Twittere")
+- [Facebook page](https://www.facebook.com/pages/Pluxbox/168484729879371 "Pluxbox Facebook page")
 
 *License*
 
