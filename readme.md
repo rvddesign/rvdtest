@@ -12,11 +12,11 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 id sem consectetuer libero luctus adipiscing.
 
 
----
+
 > first level quote
 > > nested blockquote
 > back to first level
----
+
 
 
 > ### header
@@ -64,9 +64,9 @@ http://daringfireball.net/projects/markdown/syntax
 #### lists
 
 Unordered list
-* \#Num: #1
-* User/#Num: rvddesign#1
-* User/Project#Num: rvddesign/rvdtest#1
+* item 1
+* item 2
+* item 3
 
 + item 1
 + item 2
@@ -91,6 +91,17 @@ Ordered list
 	<li>McHale</li>
 	<li>Parish</li>
 </ol>
+
+#### Code Blocks
+This is a normal paragraph:
+
+    This is a code block.
+
+code block start
+	code block tab 1 start
+		code block tab 2
+	code block tab 1 end
+code block end
 
 
 ###### regular code block
@@ -134,6 +145,14 @@ if(isset($test)) {
 	    },
 </script>
 ```
+
+###### horizontal lines
+
+* * * 
+***
+******
+- - - 
+--------------------------
 
 ### Bug tracker ###
 
