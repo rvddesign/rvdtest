@@ -12,7 +12,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dolor vel
 ##### comment (5)
 ###### comment (6)
 
-List
+This is a regular paragraph.
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+This is another regular paragraph.
+
+List:
 * \#Num: #1
 * User/#Num: rvddesign#1
 * User/Project#Num: rvddesign/rvdtest#1
